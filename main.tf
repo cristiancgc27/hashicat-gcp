@@ -8,8 +8,6 @@ terraform {
 }
 
 provider "google" {
-  
-  credentials = var.google_creds
   project = var.project
   region  = var.region
 }
