@@ -52,3 +52,4 @@ variable "gcp_credentials" {
   sensitive = true
   description = "Google Cloud service account credentials"
 }
+variable "google_creds" { type = string }
